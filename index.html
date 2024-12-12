@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="./assets/styles.css">
     <title>Biography Page</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <p>Biografías</p>
+    <header class="header">
+        <p class="header__title">Biografías</p>
+        <nav class="header__nav">
             <ul>
                 <li><a href="#mariana">Mariana</a></li>
                 <li><a href="#nahuel">Nahuel</a></li>
@@ -21,7 +21,7 @@
     </header>
 
     <main>
-        <section class="card" id="mariana">Mariana
+        <section class="card" id="mariana">
             <div class="bio">
                 <img src="./assets/img/mariana.JPG" alt="foto rostro Mariana" width="200">
                 <h1>🌟 Hola, soy Mariana Usuga 🌟</h1>
@@ -41,16 +41,13 @@
             </div>
             <div class="contact">
                 <a href="mailto:bymarium@gmail.com" target="_blank">
-                    <img src="assets/img/mail.png" alt="icono de mail" width="25">
-                    bymarium@gmail.com
+                    <img src="./assets/img/mail.png" alt="icono de mail" width="25">
                 </a>
                 <a href="https://github.com/bymarium" target="_blank">
-                    <img src="assets/img/brand-github.png" alt="icono de mail" width="25">
-                    @bymarium
+                    <img src="./assets/img/brand-github.png" alt="icono de mail" width="25">
                 </a>
                 <a href="tel:+573127965641">
-                    <img src="assets/img/phone.png" alt="icono de mail" width="25">
-                    3127965641
+                    <img src="./assets/img/phone.png" alt="icono de mail" width="25">
                 </a>
             </div>
         </section>
@@ -58,7 +55,7 @@
         <section class="card" id="nahuel">
             <div class="bio">
                 <img src="assets/img/nahuel.jpg" alt="Nahuel Lemes" width="200">
-                <h2>Nahuel Lemes</h2>
+                <h1>Nahuel Lemes</h1>
                 <p>¡Hola! Soy Nahuel Lemes, un apasionado desarrollador web y cantautor de pop rock de Paysandú,
                     Uruguay. <br>
                     Desde siempre me ha motivado la creatividad, ya sea construyendo aplicaciones que hagan la vida más
@@ -73,45 +70,45 @@
             </div>
             <div class="contact">
                 <a href="mailto:nahulem@gmail.com" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="icono de mail" width="25">
+                    <img src="./assets/img/mail.png" alt="icono de mail" width="25">
                 </a>
                 <a href="https://https://github.com/NahuLemesF" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="icono de github" width="25">
+                    <img src="./assets/img/brand-github.png" alt="icono de github" width="25">
                 </a>
                 <a href="www.linkedin.com/in/ellukita97" target="_blank">
-                    <img src="https://cdn-icons-png.flaticon.com/512/4138/4138130.png" alt="icono de Linkedin"
-                        width="25">
+                    <img src="./assets/img/brand-linkedin.png" alt="icono de Linkedin" width="25">
                 </a>
             </div>
         </section>
         <section class="card" id="lucas">
-            <img src="assets/img/lucas.jpg" alt="foto de lucas" width="200">
-            <h2>Lucas Rodrigues</h2>
-            <p>
-                ¡Hola!, Soy Lucas. Empece en la programación con c# con un amigo a los 14 años.
-                Tras haber estudiado en la Universidad ORT descubrí el desarrollo web enamorándome perdidamente de él.
-                ¡Estoy emocionado de colaborar en proyectos apasionantes! Si estás interesado en trabajar juntos
-                o tienes alguna pregunta, no dudes en ponerte en contacto conmigo.
-            </p>
-            <div>
+            <div class="bio">
+                <img src="assets/img/lucas.jpg" alt="foto de lucas" width="200">
+                <h1>Lucas Rodrigues</h1>
+                <p>
+                    ¡Hola!, Soy Lucas. Empece en la programación con c# con un amigo a los 14 años.
+                    Tras haber estudiado en la Universidad ORT descubrí el desarrollo web enamorándome perdidamente de
+                    él.
+                    ¡Estoy emocionado de colaborar en proyectos apasionantes! Si estás interesado en trabajar juntos
+                    o tienes alguna pregunta, no dudes en ponerte en contacto conmigo.
+                </p>
+            </div>
+            <div class="contact">
                 <a href="https://github.com/Ellukita97">
-                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github icon">
+                    <img src="./assets/img/brand-github.png" alt="Github icon" width="25">
                 </a>
                 <a href="www.linkedin.com/in/ellukita97">
-                    <img src="https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="Linedin icon">
+                    <img src="./assets/img/brand-linkedin.png" alt="Linedin icon" width="25">
                 </a>
-                <a href="ebengarden@gmail.com">
-                    <img src="https://t3.ftcdn.net/jpg/08/38/24/86/360_F_838248675_UtEmzGbyZcslXJDiI9h94KmcHl6Qxig8.jpg" alt="Email icon">
+                <a href="mailto:ebengarden@gmail.com">
+                    <img src="./assets/img/mail.png" alt="Email icon" width="25">
                 </a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>© 2024 - Biografías - creado por Mariana Usuga, Nahuel Lemes y Lucas Gonzalez</p>
+        <p>© 2024 - Biografías - creado por Mariana Usuga, Nahuel Lemes y Lucas Rodrigues</p>
     </footer>
-
-    <script src="app.js"></script>
 </body>
 
 </html>
