@@ -76,6 +76,11 @@ Below are the captures of the project's Git graph showing the commit history and
    open index.html
    
 
+## Live Preview
+
+The project is hosted on GitHub Pages. You can view it [here](https://ellukita97.github.io/biography-page/).
+   
+
 ---
 
 © 2024 - Biographies - Created by Mariana Usuga, Nahuel Lemes, and Lucas Rodrigues.
