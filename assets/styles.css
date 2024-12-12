@@ -47,7 +47,6 @@ main {
   display: flex;
   gap: 20px;
   flex-direction: column;
-  margin-top: 60px;
 }
 
 .card {
@@ -55,7 +54,7 @@ main {
   flex-direction: column;
   justify-content: center;
   background-color: #fff;
-  padding: 30px;
+  padding: 70px 20px;
   margin: 0 15%;
   border-radius: 10px;
 }
