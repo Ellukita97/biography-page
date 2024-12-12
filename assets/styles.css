@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  font-size: 20px;
+}
+
+.header__title {
+  font-weight: bold;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+  }
+  
+  a:hover {
+    color: rgb(114, 42, 42);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
