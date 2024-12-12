@@ -49,12 +49,15 @@ Below are the captures of the project's Git graph showing the commit history and
 
 
 1. *Nahuel's Git Graph*
+   
    ![Git Graph 1](./assets/img/git-graph-1.png)
 
 2. *Mariana's Git Graph*
+   
    ![Git Graph 2](./assets/img/git-graph-2.png)
 
 3. *Lucas Git Graph*
+   
    ![Git Graph 3](./assets/img/git-graph-3.png)
 
 
